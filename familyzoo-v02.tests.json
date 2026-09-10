@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "story": "familyzoo-v02",
+  "seed": 42,
+  "cards": [
+    {
+      "type": "opening",
+      "assertions": {
+        "channels": [
+          {
+            "id": "info.title",
+            "is": "Family Zoo (v02 — Multiple Rooms & Navigation)"
+          },
+          {
+            "id": "info.description",
+            "is": "Sharpee tutorial step 2 — exits, compass directions, and `aka` synonyms."
+          }
+        ]
+      }
+    },
+    {
+      "type": "boot",
+      "assertions": {
+        "contains": [
+          "Zoo Entrance",
+          "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "south",
+      "assertions": {
+        "contains": [
+          "Main Path",
+          "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "east",
+      "assertions": {
+        "contains": [
+          "Petting Zoo",
+          "A cheerful open-air enclosure that smells of warm hay and fur. A feed dispenser is mounted"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "west",
+      "assertions": {
+        "contains": [
+          "Main Path",
+          "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "west",
+      "assertions": {
+        "contains": [
+          "Aviary",
+          "You step inside a soaring mesh dome. Brilliantly colored parrots chatter from rope perches"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "east",
+      "assertions": {
+        "contains": [
+          "Main Path",
+          "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "north",
+      "assertions": {
+        "contains": [
+          "Zoo Entrance",
+          "You stand before the wrought-iron gates of the Willowbrook Family Zoo. A cheerful welcome "
+        ]
+      }
+    }
+  ]
+}

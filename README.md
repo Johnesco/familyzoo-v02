@@ -1,32 +1,30 @@
-# Family Zoo — v02 — Multiple Rooms & Navigation
+# Family Zoo — v02: Multiple Rooms & Navigation
 
-Expands the zoo to four connected rooms — entrance, main path, petting zoo, and aviary — linked by compass directions. Teaches how room exits are wired and why they must be created as pairs.
+The zoo grows to four rooms joined by compass directions. Exits are one line each, and `aka` gives every room the names a player will actually type.
 
-Step 2 of the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial — a progressive walkthrough of the [Sharpee](https://sharpee.net) TypeScript interactive fiction engine, from a single room to a full multi-file story.
+Step 2 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial for [Chord](https://sharpee.net/chord/), the authoring language of the [Sharpee](https://sharpee.net) interactive fiction engine.
 
-## What this step teaches
+## What this step adds
 
-- Direction enum for compass movement (N/S/E/W and more)
-- RoomTrait.exits mapping directions to destinations
-- Two-step create-then-connect pattern for rooms
-- Retrieving traits with entity.get(Trait)
-- Automatic handling by the stdlib going action
+- `south to the Main Path` — an exit is a property of the room
+- Exits are declared one way; Chord wires the return trip
+- `aka path, gravel path` for synonyms the parser accepts
+- Room descriptions that tell the player where the exits go
 
-## Playing
+## The source
 
-Open `play.html`, or preview the folder:
+The whole step is one file: [`familyzoo-v02.story`](./familyzoo-v02.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v02-multiple-rooms-navigation.md`](./docs/v02-multiple-rooms-navigation.md).
 
-```bash
-python -m http.server 8000 --directory familyzoo-v02
-```
-
-## Building
-
-This is a **frozen 0.9.x TypeScript version**. The built player in this folder is the published artifact; it is re-laid from `browser/` by the workspace build:
+## Playing and testing
 
 ```bash
-python ../tools/build.py familyzoo-v02
-python C:/code/ifhub/tools/ship.py familyzoo-v02
+npx sharpee play
+npx sharpee test          # replays familyzoo-v02.tests.json
+python ../tools/build.py familyzoo-v02 --force
 ```
 
-The authoring tree for every version lives in the [familyzoo](https://github.com/Johnesco/familyzoo) repo.
+## Engine
+
+Pinned to `@sharpee/*` **5.3.0** (Chord 3.6.0), held there by an `overrides` block: 5.3.1 publishes broken subpath exports and breaks `sharpee test`.
+
+The 0.9.x TypeScript edition this replaced is kept in [`legacy/`](./legacy).

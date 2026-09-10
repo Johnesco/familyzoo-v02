@@ -3,7 +3,7 @@ story
   authors:
     John Googol
   id: familyzoo-v02
-  ifid: 51D00707-8EB9-4BF3-A0CB-C29822ED6402
+  ifid: 214E8D2F-466E-4C2C-A2B4-610D58B602EF
   story-version: 0.0.2
   description: Sharpee tutorial step 2 — exits, compass directions, and `aka` synonyms.
 
@@ -14,17 +14,14 @@ create the Zoo Entrance
 
   first time
     Your family piles out of the car, buzzing with excitement — a
-    whole day at the zoo! You straighten the strap of your backpack
-    and take it all in. You stand before the wrought-iron gates of
+    whole day at the zoo! You stand before the wrought-iron gates of
     the Willowbrook Family Zoo. A cheerful welcome sign arches over
-    the entrance, and a small ticket booth sits to one side. A
-    sturdy iron fence runs along either side of the gates. The main
+    the entrance, and a small ticket booth sits to one side. The main
     path leads south into the zoo grounds.
 
   You stand before the wrought-iron gates of the Willowbrook Family Zoo.
   A cheerful welcome sign arches over the entrance, and a small ticket
-  booth sits to one side. A sturdy iron fence runs along either side of
-  the gates. The main path leads south into the zoo grounds.
+  booth sits to one side. The main path leads south into the zoo grounds.
 
 create the Main Path
   a room
@@ -33,27 +30,22 @@ create the Main Path
   west to the Aviary
 
   A wide gravel path winds through the heart of the zoo. Colorful
-  direction signs point every which way. A park bench sits beside the
-  path. To the east, the petting zoo. To the west, the aviary. A staff
-  gate blocks the path to the south. The entrance is back to the north.
+  direction signs point every which way. To the east, the petting zoo.
+  To the west, the aviary. The entrance is back to the north.
 
 create the Petting Zoo
   a room
   aka petting area, pen
 
-  A cheerful open-air enclosure that smells of warm hay and fur. A feed
-  dispenser is mounted on a post, and an info plaque is posted by the
-  gate. The main path is back to the west.
+  A cheerful open-air enclosure that smells of warm hay and fur. The
+  main path is back to the west.
 
 create the Aviary
   a room
   aka bird house, dome
 
-  You step inside a soaring mesh dome. Brilliantly colored parrots
-  chatter from rope perches, and a toucan eyes you curiously from a
-  branch overhead. A small waterfall splashes into a stone basin. An
-  info plaque hangs near the entrance. The gift shop is to the west. The
-  main path is back to the east.
+  You step inside a soaring mesh dome. Birdsong echoes off the high mesh
+  overhead. The main path is back to the east.
 
 create Alex
   a person

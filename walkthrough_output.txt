@@ -1,9 +1,31 @@
 Zoo Entrance
 Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You stand before the wrought-iron gates of the Willowbrook Family Zoo. A cheerful welcome sign arches over the entrance, and a small ticket booth sits to one side. The main path leads south into the zoo grounds.
 
+> look
+Zoo Entrance
+You stand before the wrought-iron gates of the Willowbrook Family Zoo. A cheerful welcome sign arches over the entrance, and a small ticket booth sits to one side. The main path leads south into the zoo grounds.
+
+> x welcome sign
+A brightly painted wooden sign reads: "WELCOME TO WILLOWBROOK FAMILY ZOO."
+
+> x sign
+A brightly painted wooden sign reads: "WELCOME TO WILLOWBROOK FAMILY ZOO."
+
+> x ticket booth
+A small wooden booth with a "Self-Guided Tours" sign.
+
+> x booth
+A small wooden booth with a "Self-Guided Tours" sign.
+
 > south
 Main Path
 A wide gravel path winds through the heart of the zoo. Colorful direction signs point every which way. To the east, the petting zoo. To the west, the aviary. The entrance is back to the north.
+
+> x direction signs
+Arrow signs: PETTING ZOO (east), AVIARY (west), EXIT (north).
+
+> x signs
+Arrow signs: PETTING ZOO (east), AVIARY (west), EXIT (north).
 
 > east
 Petting Zoo
@@ -24,3 +46,22 @@ A wide gravel path winds through the heart of the zoo. Colorful direction signs 
 > north
 Zoo Entrance
 You stand before the wrought-iron gates of the Willowbrook Family Zoo. A cheerful welcome sign arches over the entrance, and a small ticket booth sits to one side. The main path leads south into the zoo grounds.
+
+> take welcome sign
+The welcome sign is fixed in place.
+
+> take ticket booth
+The ticket booth is fixed in place.
+
+> south
+Main Path
+A wide gravel path winds through the heart of the zoo. Colorful direction signs point every which way. To the east, the petting zoo. To the west, the aviary. The entrance is back to the north.
+
+> take direction signs
+The direction signs are fixed in place.
+
+> score
+This isn't that kind of game.
+
+> inventory
+You aren't carrying anything at all.

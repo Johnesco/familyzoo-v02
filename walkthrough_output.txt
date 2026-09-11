@@ -62,6 +62,3 @@ The direction signs are fixed in place.
 
 > score
 This isn't that kind of game.
-
-> inventory
-You aren't carrying anything at all.

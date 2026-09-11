@@ -16,4 +16,3 @@ take ticket booth
 south
 take direction signs
 score
-inventory

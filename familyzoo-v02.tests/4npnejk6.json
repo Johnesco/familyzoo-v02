@@ -1,10 +1,6 @@
 {
-  "version": 1,
-  "story": "familyzoo-v02",
-  "seed": 42,
   "cards": [
     {
-      "type": "opening",
       "assertions": {
         "channels": [
           {
@@ -16,76 +12,86 @@
             "is": "Sharpee tutorial step 2 — exits, compass directions, and `aka` synonyms."
           }
         ]
-      }
+      },
+      "id": "9qxswolf",
+      "type": "opening"
     },
     {
-      "type": "boot",
       "assertions": {
         "contains": [
           "Zoo Entrance",
           "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
         ]
-      }
+      },
+      "id": "yznrwr16",
+      "type": "boot"
     },
     {
-      "type": "turn",
-      "command": "south",
       "assertions": {
         "contains": [
           "Main Path",
           "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
         ]
-      }
+      },
+      "command": "south",
+      "id": "ioi12ni2",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "east",
       "assertions": {
         "contains": [
           "Petting Zoo",
           "A cheerful open-air enclosure that smells of warm hay and fur. The main path is back to th"
         ]
-      }
+      },
+      "command": "east",
+      "id": "d491551o",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "west",
       "assertions": {
         "contains": [
           "Main Path",
           "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
         ]
-      }
+      },
+      "command": "west",
+      "id": "n7qdbpl6",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "west",
       "assertions": {
         "contains": [
           "Aviary",
           "You step inside a soaring mesh dome. Birdsong echoes off the high mesh overhead. The main "
         ]
-      }
+      },
+      "command": "west",
+      "id": "b6sb76w2",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "east",
       "assertions": {
         "contains": [
           "Main Path",
           "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
         ]
-      }
+      },
+      "command": "east",
+      "id": "pkett7hb",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "north",
       "assertions": {
         "contains": [
           "Zoo Entrance",
           "You stand before the wrought-iron gates of the Willowbrook Family Zoo. A cheerful welcome "
         ]
-      }
+      },
+      "command": "north",
+      "id": "d6gtvqt0",
+      "type": "turn"
     }
-  ]
+  ],
+  "id": "4npnejk6"
 }

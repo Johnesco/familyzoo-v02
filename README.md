@@ -13,7 +13,7 @@ Step 2 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tut
 
 ## The source
 
-The whole step is one file: [`familyzoo-v02.story`](./familyzoo-v02.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v02-multiple-rooms-navigation.md`](./docs/v02-multiple-rooms-navigation.md).
+The whole step is one file: [`familyzoo-v02.story`](./familyzoo-v02.story) — the step before it plus the ideas above. Where it sits in the trail is on the [group page](https://johnesco.github.io/familyzoo/#familyzoo-v02).
 
 ## Playing and testing
 
